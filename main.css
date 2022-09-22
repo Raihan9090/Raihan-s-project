@@ -1,0 +1,95 @@
+*{margin: px;
+	padding: 0px;
+
+
+
+}
+
+
+
+
+nav ul  li{list-style: none;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 100px;
+
+
+
+}
+nav ul li a{color: red;
+	text-decoration: none;
+	font-family: cursive;
+	font-size: 30px;
+	font-weight: 100px;
+	margin-left: 
+	float:right;
+	background-color: yellow;}
+
+header{display: flex;
+	justify-content: space-around;
+	align-items: center;}
+
+
+	 
+	 		nav ul li a:hover{font-size: 30px;
+	 			background-color: blue;
+	 			color: red;transition: 1.5s;
+	 		}
+
+body{background-color: deeppink;}
+
+  nav ul li a{text-decoration:none;
+ 	padding-right: 0px
+ 	font-size: 40px;
+ 	font-weight: ;
+ 	background-color: red;
+ 	color: red;
+
+
+
+}
+ul li{list-style: none;
+
+
+}
+
+.img:hover{border: 10px  orange dotted;
+	border-radius: 100%; 
+width: 400px;
+height: 290px;
+
+	animation-name: myanimation;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+
+
+
+
+}
+.img{
+	 width: 400px;height: 300px;border: 6px red dashed; border-radius: 50px; 
+}
+
+.hr{width: 550px;height:15px;
+	background-color: red;
+	border-radius:50px;
+	border:3px white dotted;
+	
+
+}
+	.hr:hover{width: 650px;
+		background-color:aqua;
+		border: 5px black dotted;
+		transition-property: all;
+		transition-duration: 2.5s;
+
+
+	}
+
+h2{font-family: cursive;background-color: rgb(0,250,0);border-radius: 50px; text-align: center;
+	color: white;margin-top:  9px;border: 2px red groove}
+	h2:hover{animation-name: myanimation;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+		
+	}

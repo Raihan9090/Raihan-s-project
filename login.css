@@ -1,0 +1,117 @@
+body{background-color: deeppink;
+
+
+}
+
+
+
+
+
+
+@keyframes myanimation{
+	0%{background-color:blue;color: red;border-color: lightblue}
+	20%{background-color: red;color: blue;border-color: pink}
+	40%{background-color: yellow;color: orange;border-color: white}
+	60%{background-color: orange;color: yellow;border-color: gold}
+	80%{background-color: aqua;color: rgb(0,230,0);border-color: teal}
+	100%{background-color: rgb(0,230,0); color: aqua border-color:tan;}
+
+}
+
+
+h1{color: aqua;
+	background-color: black;
+	font-family: cursive;
+	font-size: 45px;
+	height: 63px;
+	width: 100%;
+	border: 7px aqua dotted;
+	border-radius: 50px;
+	margin-top:  1px;
+
+	animation-name: myanimation;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+
+}
+.h1{background-color: black;
+	color: rgb(0,0,250);
+	
+	font-family: cursive;
+	border: 5px dashed rgb(0,0,250);
+	border-radius: 50px;
+	width: 650px;
+	height: 80px;
+
+
+
+	}
+
+	.div1{width: 580px;
+		height: 100px;
+		color:white ;
+		border: 5px dashed white;
+		border-radius: 50px;
+		background-color: red;
+
+	}
+		 .input1{width: 250px;
+		 	height: 25px;
+		 	background-color: white;
+		 	margin-top:34px;
+		 	border-radius: 50px;
+		 	border: 5px dotted blue;}
+		 	.input1:hover{color: black;
+		 		background-color: aqua;
+		 		border-color: red;
+		 		width: 320px;
+		 	
+		 		transition-property: all;
+		 		transition-duration: 2s;
+		 		transition-delay: ;
+		 		transition-timing-function: ;
+
+
+		 	
+	animation-name: myanimation;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;}
+		 	.div2{width: 530px;
+		height: 100px;
+		color:white ;
+		border: 5px dashed red;
+		border-radius: 50px;
+		background-color: blue;}
+
+		.input2{width: 250px;
+		 	height: 25px;
+		 	background-color: white;
+		 	margin-top:34px;
+		 	border-radius: 50px;
+		 	border: 4px dotted blue;}
+		 	.input2:hover{color: blue;
+		 		background-color: aqua;
+		 		width: 265px;
+		 		height: 28px;
+		 		transition: 1.5s;
+
+	animation-name: myanimation;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;}
+
+		 @keyframes myanimation{
+	0%{background-color:blue;color: red;border-color: lightblue}
+	20%{background-color: red;color: blue;border-color: pink}
+	40%{background-color: yellow;color: orange;border-color: white}
+	60%{background-color: orange;color: yellow;border-color: gold}
+	80%{background-color: aqua;color: rgb(0,230,0);border-color: teal}
+	100%{background-color: rgb(0,230,0); color: aqua border-color:tan;}
+
+}
+.button{
+	width: 100px;height: 100px;background-color: orange; border: 5px black dashed; border-radius: 50px;
+}
+
+
+.button:hover{color: blue;
+	background-color: red;}
